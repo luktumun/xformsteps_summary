@@ -321,11 +321,11 @@ input {
 }
 
 .plan_card:hover,
-.plan_card.is-selected {
+.plan_card.selected {
   border-color: #554bff;
 }
 
-.plan_card.is-selected {
+.plan_card.selected {
   background: #f8f9fe;
 }
 

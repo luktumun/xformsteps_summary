@@ -126,7 +126,7 @@
       selectedPlan = card.dataset.plan;
       planCards.forEach((plan) => {
         const selected = plan === card;
-        plan.classList.toggle("is-selected", selected);
+        plan.classList.toggle("selected", selected);
         plan.setAttribute("aria-pressed", String(selected));
       });
     });
