@@ -5,7 +5,7 @@
   const nextButton = document.querySelector("#next-button");
   const backButton = document.querySelector("#back-button");
   const billingToggle = document.querySelector("#billing-toggle");
-  const planCards = [...document.querySelectorAll(".plan_car")];
+  const planCards = [...document.querySelectorAll(".plan_card")];
   const addonInputs = [...document.querySelectorAll('input[name="addons"]')];
   const form = document.querySelector("#personal-info-form");
   let currentStep = 1;

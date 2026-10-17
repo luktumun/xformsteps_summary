@@ -305,7 +305,7 @@ input {
   gap: 16px;
 }
 
-.plan_car {
+.plan_card {
   display: flex;
   min-height: 180px;
   flex-direction: column;
@@ -320,12 +320,12 @@ input {
   text-align: left;
 }
 
-.plan_car:hover,
-.plan_car.is-selected {
+.plan_card:hover,
+.plan_card.is-selected {
   border-color: #554bff;
 }
 
-.plan_car.is-selected {
+.plan_card.is-selected {
   background: #f8f9fe;
 }
 
@@ -714,7 +714,7 @@ input {
     gap: 12px;
   }
 
-  .plan_car {
+  .plan_card {
     min-height: 78px;
     flex-direction: row;
     align-items: center;
